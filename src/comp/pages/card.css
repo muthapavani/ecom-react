@@ -1,0 +1,40 @@
+.container {
+    width: 300px;
+    padding: 15px;
+    margin: 15px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.container:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);
+}
+
+.user-name {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.user-info {
+    font-size: 1rem;
+    color: #555;
+    margin: 5px 0;
+}
+
+.company-info {
+    margin-top: 10px;
+    padding: 10px;
+    background: #f8f9fa;
+    border-radius: 8px;
+    font-size: 0.9rem;
+}
+.company-info h3 {
+    font-size: 1rem;
+    color: #444;
+    margin: 5px 0;
+}
